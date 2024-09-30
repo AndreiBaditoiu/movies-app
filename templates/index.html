@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieApp</title>
+
+</head>
+<body>
+<h1>My Fav Movies</h1>
+{% if movies %}
+    <ul>
+    {% for movie in movies %}
+        <li>{{ movie | title }}</li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p>No favorite movies...</p>
+{% endif %}
+</body>
+</html>
