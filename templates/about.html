@@ -1,10 +1,16 @@
+{% extends '_base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>About</title>
 </head>
+{% block content %}
 <body>
+
 <h1>My favorite movie is 'Contact'</h1>
+{% load static %}
+<img style="width: 100px;" src=" {% static 'legion.jpg' %}" alt="My picture">
 </body>
+{% endblock %}
 </html>
