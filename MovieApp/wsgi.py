@@ -1,5 +1,5 @@
 """
-WSGI config for MovieApp project.
+WSGI MovieApp for MovieApp project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

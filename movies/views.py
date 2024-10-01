@@ -8,7 +8,7 @@ import movies
 
 def index(request):
     context = {
-        'movies':['gladiator', 'terminator 2', 'contact' ]
+        'movies': ['gladiator', 'terminator 2', 'contact']
     }
     return render(request, 'index.html', context )
 
